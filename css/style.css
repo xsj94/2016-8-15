@@ -54,7 +54,7 @@ body{ font-family:"微软雅黑"; font-size:14px; background:}
 .man-new-title{ width: 990px; height: 282px; background: url("../images/man-new.jpg") no-repeat; margin:0 auto;}
 .man-list li a{ background:  url("../images/shoe-b.jpg") no-repeat;}
 /*浮动列表*/
-.float{ width: 119px; height: auto; position: fixed; top:450px; right: 250px; color: #fff;}
+.float{ width: 119px; height: auto; position: fixed; top:200px; right: 250px; color: #fff;}
 .float a{ color: #fff;}
 .nav-list dt{ width: 100%; height: 36px; line-height: 36px; background: #ff2266; font-size: 18px;}
 .nav-list dt img{ float: left; margin: 11px 0 0 6px;}
