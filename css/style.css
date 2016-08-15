@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li,dl,dt,dd,p,h1,h2,h3,h4,span,a,em,i,b,strong,input,textarea,select,option,label{ margin:0; padding:0;}
+li{ list-style:none;}
+input,select,textarea,area{ outline:none;}
+a{ color:#2d0505; text-decoration:none;}
+a:hover{color:#2d0505;}
+img{ border:0 none; vertical-align:top;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; display:block; visibility:hidden; clear:both; height:0; font-size:0;}
+body{ font-family:"微软雅黑"; font-size:14px; background:}
+.layer{ width:990px; height:auto; margin:0 auto;}
+/*公共*/
+.overflow{ overflow:hidden;}
+.ie6Pos{ _position:relative;}
+/*黄色块*/
+#header{ width:100%; height:auto; padding-top:426px; background:url(../images/header-bg.jpg) no-repeat center top #f4e033; padding-bottom:227px;}
+.nav{ background:url(../images/nav-bg.jpg) no-repeat;}
+.nav li{ float:left; width:50%; height:70px;}
+.nav a{ display:block; width:100%; height:100%; overflow:hidden; text-indent:-99em;}
+.sidle{ background:#fff; margin-top:20px;}
+.sidle li{ float:left; width:48px; height:428px; overflow:hidden; margin-top:-1px;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+}
+/*女装上新*/
+#woman-new{ background:#e04ede; position:relative; width:100%;}
+.woman-new-title{ position:absolute; left:50%; top:-227px; margin-left:-495px; width:990px; height:276px; background:url(../images/woman-new.jpg) no-repeat;}
+.woman-new-title a{ position:absolute; width:100%; height:115px; left:0; bottom:0; overflow:hidden; text-indent:-99em;}
+.woman-new-list{ width:1000px; padding-top:59px;}
+.woman-new-list li{ position:relative; float:left; width:190px; height:330px; margin-top:10px; margin-right:10px; _display:inline; background:#fff;}
+.w-n-img{ position:relative; width:100%;}
+.w-n-img span{ position:absolute; left:0; bottom:0; width:100%; text-align:center; height:24px; line-height:24px; color:#735554; overflow:hidden;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99FFFFFF', endColorstr='#99FFFFFF');background:rgba(255,255,255,0.6);}
+.w-n-logo{ height:30px; margin-top:7px; text-align:center;}
+.w-n-tit{ height:34px; line-height:34px; text-align:center; color:#2d0505;}
+.w-n-cou{ width:137px; height:26px; line-height:26px; margin:0 auto; background:#f0196a; color:#fff; font-size:15px; text-align:center;}
+.w-n-cou dt{ float:left; width:68px; border-right:#f34788 1px solid;}
+.w-n-cou dd{ float:left; margin-left:8px;}
+.w-n-mouseover{ display:none; position:absolute;  left:0; top:0; width:100%; height:100%;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#66000000', endColorstr='#66000000');background:rgba(0,0,0,0.4);}
+.w-n-product{position:absolute; z-index:4; width:100%; height:100%; overflow:hidden; text-indent:-99em; background:#000; filter:alpha(opacity=0); opacity:0;}
+.w-n-couLink{ position:absolute; z-index:5;width:172px; height:33px; left:9px; bottom:13px;}
+.w-n-couLink .w-n-cou{width:100%; height:100%; line-height:33px; font-size:18px;}
+.woman-new-list li:hover .w-n-mouseover{ display:block;}
+/*聚划算*/
+.block{ width: 1000px;}
+.block li{ float: left; width:322px; height: 242px; background: #fff; margin-right: 9px;}
+/*女装列表*/
+.list-2{ width: 1100px;}
+.list-2 li{ float: left; height:368px;}
+.list-2 li a{ float: left; width:190px; height: 355px; background:url("../images/shoe-a.jpg") no-repeat; margin:1px 11px 10px 0;}
+.list-2 li a:hover{ border: 1px #e9d83f solid; margin:0 9px 8px 0;}
+/*男装列表*/
+#man-new{ background:#753ac8; position:relative; width:100%;}
+.man-new-title{ width: 990px; height: 282px; background: url("../images/man-new.jpg") no-repeat; margin:0 auto;}
+.man-list li a{ background:  url("../images/shoe-b.jpg") no-repeat;}
+/*浮动列表*/
+.float{ width: 119px; height: auto; position: fixed; top:450px; right: 250px; color: #fff;}
+.float a{ color: #fff;}
+.nav-list dt{ width: 100%; height: 36px; line-height: 36px; background: #ff2266; font-size: 18px;}
+.nav-list dt img{ float: left; margin: 11px 0 0 6px;}
+.nav-list dd{ width: 115px; height: 25px; background: #e23bdf; margin:0 auto;  text-align: center; }
+.nav-list dd a{ display: block; width: auto;height: 100%; line-height: 25px; font-size: 14px;}
+.man-nav dd{ background: #6e2ccb;}
+.nav-top{ width: 100%; height: 41px; line-height: 41px; font-size: 16px; color: #fff; background: #333333;  text-align: center;}
+
+
+
